@@ -1,0 +1,70 @@
+#####################################
+# Argos configuration file 	    #
+# SURFnet IDS                       #
+# Version 2.00.01                   #
+# 22-05-2007                        #
+# Jan van Lith & Kees Trippelvitz   #
+#####################################
+
+######################
+# PostgreSQL config  #
+######################
+## User info for the logging user in the postgresql database
+# Don't forget to allow this computers ip address to connect to postgres DB
+$pgsql_pass = 'enter_password';
+$pgsql_user = "argos";
+# Postgresql database info
+$pgsql_host = "enter_ipaddress";
+$pgsql_dbname = "idsserver";
+# The port number where the postgresql database is running on.
+$pgsql_port = "5432";
+# Connection string used by the perl scripts.
+$dsn = "DBI:Pg:dbname=$pgsql_dbname;host=$pgsql_host;port=$pgsql_port";
+
+###############
+# Variables   #
+###############
+$logdir = "/opt/argos/logs";
+$listenip = "enter_ipaddress";
+$listenport = "15000";
+$cargosbin= "/opt/argos/bin/carlog";
+$logdir = "/opt/argos/logs";
+$homedir = "/opt/argos";
+$imagedir = "/opt/argos/images";
+$startdir = "/opt/argos/$imagename";
+$piddir = "/var/run/argos";
+# Gateway used for argos images
+$gw = "enter_ipaddress";
+# Timeout used for restarting argos image
+$restart_timeout = "3600"; ## 1 uur
+#Delay time used by start 
+$delay="120";
+
+###############
+# RRD scripts #
+###############
+# Directory where the temporary rrd pictures are stored
+$imgdir = "/tmp";
+# RRD library directory.
+$rrddir = "/var/lib/rrd";
+#Server name
+$servername = "argosserver";
+
+
+# After this line no change needed 
+$logfile = "$0";
+$logfile =~ s|.*/||;
+if ($imagename ne ""){
+	$logfile = "$logdir/$logfile.$imagename.log";
+} else {
+	$logfile = "$logdir/$logfile.log";
+}	
+$netconffile = "$homedir/netconf_$imagename.bat";
+
+$pidfileargosstart = "$piddir/argosstart_$imagename.pid";
+$pidfileargos = "$piddir/argos_$imagename.pid";
+$mountpoint = "/mnt/hddshare_$imagename";
+$hddshare = "$imagedir/hddshare_$imagename.img";
+
+
+
