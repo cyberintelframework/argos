@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+$tap = $ARGV[0];
+$br = "br0";
+`ifconfig $tap promisc up`;
+`brctl addif $br $tap`;
+`echo 1 > /proc/sys/net/ipv4/ip_forward`;
