@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 ###################################
 # Alertdetailistener 		      # 
-# SURFids 2.04                    #
+# SURFids 2.00.04                 #
 # Changeset 001                   #
 # 20-04-2006                      #
 # Jan van Lith                    #
