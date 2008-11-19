@@ -1,40 +1,17 @@
 #!/usr/bin/perl
 
-#########################################
-# Server info script                    #
-# SURFnet IDS                           #
-# Version 1.04.03                       #
-# 10-01-2007                            #
-# Hiroshi Suzuki                        #
-# Modified by Kees Trippelvitz          #
-#########################################
-
-#########################################################################################
-# Copyright (C) 2005 SURFnet                                                            #
-# Authors Jan van Lith & Kees Trippelvitz                                               #
-#                                                                                       #
-# This program is free software; you can redistribute it and/or                         #
-# modify it under the terms of the GNU General Public License                           #
-# as published by the Free Software Foundation; either version 2                        #
-# of the License, or (at your option) any later version.                                #
-#                                                                                       #
-# This program is distributed in the hope that it will be useful,                       #
-# but WITHOUT ANY WARRANTY; without even the implied warranty of                        #
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                         #
-# GNU General Public License for more details.                                          #
-#                                                                                       #
-# You should have received a copy of the GNU General Public License                     #
-# along with this program; if not, write to the Free Software                           #
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.       #
-#                                                                                       #
-# Contact ids@surfnet.nl                                                                #
-#########################################################################################
+####################################
+# Server info script               #
+# SURFids 2.10                     #
+# Changeset 001                    #
+# 19-11-2008                       #
+# Hiroshi Suzuki                   #
+# Modified by Kees Trippelvitz     #
+####################################
 
 #############################################
 # Changelog:
-# 1.04.03 Removing temporary files after adding them to the database
-# 1.04.02 Changed the storage of the pictures to use base64 instead of oid.
-# 1.04.01 Initial release. Contributed by Mr. Hiroshi Suzuki from NTT-CERT
+# 001 Initial release
 #############################################
 
 ##################

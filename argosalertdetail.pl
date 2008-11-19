@@ -1,31 +1,13 @@
 #!/usr/bin/perl
-###################################
-# Alertdetailistener 		  # 
-# SURFnet IDS                     #
-# Version 0.1                     #
-# 20-04-2006                      #
-# Jan van Lith                    #
-###################################
 
-#########################################################################################
-# Copyright (C) 2005-2006 SURFnet							#
-# Author Jan van Lith 									#
-# 											#
-# This program is free software; you can redistribute it and/or 			#
-# modify it under the terms of the GNU General Public License 				#
-# as published by the Free Software Foundation; either version 2 			#
-# 											#
-# This program is distributed in the hope that it will be useful, 			#
-# but WITHOUT ANY WARRANTY; without even the implied warranty of 			#
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 				#
-# GNU General Public License for more details. 						#
-# 											#
-# You should have received a copy of the GNU General Public License 			#
-# along with this program; if not, write to the Free Software 				#
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA. 	#
-# 											#
-# Contact ids@surfnet.nl 								#
-#########################################################################################
+####################################
+# Alertdetailistener 		       # 
+# SURFids 2.10                     #
+# Changeset 001                    #
+# 19-11-2008                       #
+# Jan van Lith                     #
+####################################
+
 use DBI;
 use Time::localtime;
 

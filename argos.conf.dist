@@ -1,10 +1,10 @@
-#####################################
-# Argos configuration file 	    #
-# SURFnet IDS                       #
-# Version 2.00.01                   #
-# 22-05-2007                        #
-# Jan van Lith & Kees Trippelvitz   #
-#####################################
+####################################
+# Argos configuration file 	       #
+# SURFids 2.10                     #
+# Changeset 001                    #
+# 22-05-2007                       #
+# Jan van Lith & Kees Trippelvitz  #
+####################################
 
 ######################
 # PostgreSQL config  #

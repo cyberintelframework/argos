@@ -1,11 +1,11 @@
 #!/usr/bin/perl
-###################################
-# Start script for virtual IPs    # 
-# SURFids 2.10.00                 #
-# Changeset 002                   #
-# 01-10-2008                      #
-# Jan van Lith                    #
-###################################
+####################################
+# Start script for virtual IPs     # 
+# SURFids 2.10                     #
+# Changeset 002                    #
+# 19-11-2008                       #
+# Jan van Lith                     #
+####################################
 
 #####################
 # Changelog:
