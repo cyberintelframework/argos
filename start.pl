@@ -145,7 +145,7 @@ sub getts() {
 }
 
 sub stop() {
-  @pids = `ps -ef |grep argos | grep -v grep | awk '{print \$2}'`;
+  @pids = `ps -ef |grep argos | grep -v grep | awk '{print \$2}' | grep -v $$`;
   foreach $pid (@pids) {
        chomp($pid);
        `kill -9 $pid`;
